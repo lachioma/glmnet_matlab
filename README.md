@@ -1,4 +1,7 @@
-# glmnet_matlab
+# glmnet_matlab_R2020a
+
+![Glmnet Logo](/glmnet_logo.jpg)
+
 [Glmnet](https://web.stanford.edu/~hastie/glmnet_matlab/) compiled for MATLAB R2020a, Windows 10 64-bit.
 
 I also fixed `cvglmnet.m`, updating the old functions for parallel computing (from `matlabpool` to `parpool`).
@@ -10,7 +13,7 @@ The code from this repository is plug-and-play: just download the folder, add it
 It is way faster than MATLAB `lassoglm` that comes with the Statistics and Machine Learning Toolbox.
 
 Glmnet provided by the authors are not compatible with newer versions of MATLAB (>R2016, I read somewhere). Indeed, my Matlab 2020a on Windows 10 was going into fatal crash when running the original code. Also the code provided by [growlix](https://github.com/growlix/glmnet_matlab) did not work on my system.
-So I compiled again the Fortran code. Glmnet does work now on my system (MATLAB R2020a, Windows 10 64-bit).
+So I compiled again the Fortran code which glmnet is based on (and makes it so fast). Glmnet does work fine now on my system (MATLAB R2020a, Windows 10 64-bit).
 
 ## Implementation
 I installed:
@@ -23,7 +26,7 @@ Then, in MATLAB, I moved into the glmnet folder and ran
 mex -v COMPFLAGS='$COMPFLAGS /real_size:64 /integer_size:64' glmnetMex.F GLMnet.f
 ```
 
-Please cite the authors if you use glmnet:
+Please cite the authors if you use Glmnet:
 
 ```
 Glmnet for Matlab (2013) Qian, J., Hastie, T., Friedman, J., Tibshirani, R. and Simon, N.
