@@ -1,6 +1,6 @@
 # glmnet_matlab_R2020a
 
-![Glmnet Logo](/glmnet_logo.jpg | width=100)
+<img src="/glmnet_logo.jpg" alt="Glmnet Logo" width="400">
 
 [Glmnet](https://web.stanford.edu/~hastie/glmnet_matlab/) compiled for MATLAB R2020a, Windows 10 64-bit.
 
