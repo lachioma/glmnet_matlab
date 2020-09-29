@@ -1,8 +1,10 @@
-# glmnet_matlab_R2020a
+# glmnet_matlab_R2020
 
 <img src="/glmnet_logo.jpg" alt="Glmnet Logo" width="400">
 
-[Glmnet](https://web.stanford.edu/~hastie/glmnet_matlab/) compiled for MATLAB R2020a, Windows 10 64-bit.
+[Glmnet](https://web.stanford.edu/~hastie/glmnet_matlab/) compiled for MATLAB R2020b, Windows 10 64-bit.
+
+N.B. Check Releases and Branches for different MATLAB versions (e.g. R2020a).
 
 I also fixed `cvglmnet.m`, updating the old functions for parallel computing (from `matlabpool` to `parpool`).
 
