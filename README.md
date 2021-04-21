@@ -4,6 +4,8 @@
 
 [Glmnet](https://web.stanford.edu/~hastie/glmnet_matlab/) compiled for MATLAB R2020b, Windows 10 64-bit.
 
+**Update**: Glmnet compiled for R2020b seems to work fine on **R2021a**.
+
 N.B. Check Releases and Branches for different MATLAB versions (e.g. R2020a).
 
 I also fixed `cvglmnet.m`, updating the old functions for parallel computing (from `matlabpool` to `parpool`).
