@@ -10,6 +10,7 @@ N.B. Check Releases and Branches for different MATLAB versions (e.g. R2020a).
 
 I also fixed `cvglmnet.m`, updating the old functions for parallel computing (from `matlabpool` to `parpool`).
 
+## Installation
 The code from this repository is plug-and-play: just download the folder, add it to your MATLAB path and run your GLM!
 
 ## Background
@@ -20,7 +21,10 @@ Glmnet provided by the authors are not compatible with newer versions of MATLAB 
 So I compiled again the Fortran code which glmnet is based on (and makes it so fast). Glmnet does work fine now on my system (MATLAB R2020a, Windows 10 64-bit).
 
 ## Implementation
-I installed:
+N.B. The glmnet toolbox that comes with this repository is already compiled, i.e. the code is plug-and-play: just download the release for a specific MATLAB version, add the code folder to your MATLAB path and run your GLM!\
+You do not have to run the following steps - these are just to compile glmnet from scracth.
+
+To compile the glmnet code, I first installed:
 - [Visual Studio Community 2019](https://visualstudio.microsoft.com/)
 - [Intel Parallel Studio XE](https://software.intel.com/content/www/us/en/develop/tools/parallel-studio-xe/choose-download.html) (30-day trial version; in particular, install the FORTRAN compiler) 
 - [MATLAB Support for MinGW-w64 C/C++ Compiler](https://www.mathworks.com/matlabcentral/fileexchange/52848-matlab-support-for-mingw-w64-c-c-compiler)
