@@ -4,7 +4,7 @@
 
 [Glmnet](https://web.stanford.edu/~hastie/glmnet_matlab/) compiled for MATLAB R2020b, Windows 10 64-bit.
 
-**Update**: Glmnet compiled for R2020b seems to work fine on **R2021a** and **R2022b**.
+**Update**: Glmnet compiled for R2020b works fine on **R2021a**, **R2022b**, **R2024a**, and **R2025a**.
 
 N.B. Check Releases and Branches for different MATLAB versions (e.g. R2020a).
 
